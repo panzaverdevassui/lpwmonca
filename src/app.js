@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();             
 // importing routes  
 const productoRoutes = require('./routes/producto'); 
-// settings
+// settings 
 app.set('port', process.env.PORT || 2700);   
 app.set('view engine', 'ejs');   
 app.set('views', path.join(__dirname, 'views'));  
